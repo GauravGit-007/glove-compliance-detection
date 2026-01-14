@@ -1,23 +1,41 @@
-# Python
+# =========================
+# Python / Virtual Env
+# =========================
 venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
+# =========================
 # VS Code
+# =========================
 .vscode/*
 !.vscode/settings.json
 
-# YOLO outputs
-runs/
-
-# Dataset images and labels (DO NOT COMMIT)
-data/**/train/images/
-data/**/valid/images/
-data/**/test/images/
-data/**/train/labels/
-data/**/valid/labels/
-data/**/test/labels/
-
+# =========================
 # OS junk
-Thumbs.db
+# =========================
 .DS_Store
+Thumbs.db
+
+# =========================
+# YOLO / Ultralytics
+# =========================
+runs/
+*.pt
+yolov8n.pt
+
+# =========================
+# Datasets (Roboflow)
+# =========================
+data/glove_detection_roboflow/train/
+data/glove_detection_roboflow/valid/
+data/glove_detection_roboflow/test/
+
+# (Keep data.yaml and README files tracked)
+
+# =========================
+# Logs / temp
+# =========================
+*.log

@@ -1,0 +1,35 @@
+{
+  "filename": "noglosab_mp4-38_jpg.rf.80813901d001deb2ef019e9885a4050e.jpg",
+  "detections": [
+    {
+      "label": "bare_hand",
+      "confidence": 0.751,
+      "bbox": [
+        251,
+        537,
+        288,
+        627
+      ]
+    },
+    {
+      "label": "bare_hand",
+      "confidence": 0.519,
+      "bbox": [
+        311,
+        513,
+        339,
+        575
+      ]
+    },
+    {
+      "label": "bare_hand",
+      "confidence": 0.431,
+      "bbox": [
+        309,
+        515,
+        340,
+        594
+      ]
+    }
+  ]
+}
