@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+
+# YOLO outputs
+runs/
+
+# Dataset images and labels (DO NOT COMMIT)
+data/**/train/images/
+data/**/valid/images/
+data/**/test/images/
+data/**/train/labels/
+data/**/valid/labels/
+data/**/test/labels/
+
+# OS junk
+Thumbs.db
+.DS_Store

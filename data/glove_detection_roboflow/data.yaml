@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['gloves', 'no-gloves']
+
+roboflow:
+  workspace: gaurav-ke-models
+  project: glove-absoo-u7oti
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/gaurav-ke-models/glove-absoo-u7oti/dataset/1
